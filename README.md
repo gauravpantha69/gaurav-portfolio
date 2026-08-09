@@ -8,3 +8,4 @@ This repository contains the source code of my personal portfolio website. I am 
 
 
 Features
+Responsive Design for desktop, tablet, and mobile
