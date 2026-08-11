@@ -16,7 +16,6 @@ The website is built from scratch without using a large fronted framework
 
 
 Feature of this is 
-Responsive Design
 Dark and light mode
 mobile navigation
 terminal-style typing effect
