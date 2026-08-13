@@ -46,6 +46,7 @@
     --status: #2f7d54;
     --danger: #b8362c;
     color-scheme: light;
+    
 }
 
 *,
@@ -70,6 +71,7 @@ html {
         animation-iteration-count: 1 !important;
         transition-duration: 0.001ms !important;
         scroll-behavior: auto !important;
+        
     }
 }
 
@@ -87,6 +89,7 @@ body {
     transition: background-color var(--dur-med) var(--ease), color var(--dur-med) var(--ease);
 
 }
+
 
 h1, h2, h3 {
     font-family: var(--font-mono);
@@ -111,6 +114,7 @@ img {
 }
 
 ul {
+    
     list-style: none;
     margin: 0;
     padding: 0;
@@ -158,6 +162,8 @@ button {
     top: 0;
     z-index: 100;
     background: color-mix(in srgb, var(--bg) 88%, transparent);
+
+    
     backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--line);
 }
@@ -165,6 +171,7 @@ button {
 
 .nav {
     max-width: var(--wide-w);
+    
     margin: 0 auto;
     padding: 16px 24px;
     display: flex;
@@ -187,6 +194,7 @@ button {
 .nav_prompt .nav_colon {
     color: var(--accent);
 }
+
 
 .nav_links {
     display: flex;
@@ -211,6 +219,7 @@ button {
 }
 
 
+
 .nav_link::after {
     content: "";
     position: absolute;
@@ -218,6 +227,7 @@ button {
     bottom: -3px;
     width: 100%;
     height: 1px;
+    
     background: var(--accent);
     transform-origin: left;
     transition: transform var(--dur-fast) var(--ease);
@@ -255,6 +265,7 @@ button {
 .theme-toggle:hover {
     border-color: var(--accent);
     color: var(--accent);
+    
 }
 .icon {
     width: 18px;
@@ -272,6 +283,7 @@ button {
 
 
 [data-theme="light"] .icon-moon {
+    
     display: block;
 }
 
@@ -290,6 +302,7 @@ button {
 
 
 .nav__burger span {
+    
   width: 16px;
   height: 1.5px;
   background: var(--ink);
@@ -305,6 +318,7 @@ button {
 .nav__burger.is-open span:nth-child(3) {
   transform: translateY(-6.5px) rotate(-45deg);
 }
+
 
 
 
@@ -324,6 +338,7 @@ button {
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
   padding: 6px;
+    
   background: var(--bg-raised);
 }
 
@@ -497,6 +512,7 @@ button {
 }
 
 [data-reveal].is-visible {
+    
   opacity: 1;
   transform: translateY(0);
 }
@@ -526,6 +542,7 @@ button {
 .skill-card {
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
+    
   padding: 20px;
   background: var(--bg-raised);
   transition: border-color var(--dur-fast) var(--ease), transform var(--dur-fast) var(--ease);
@@ -544,6 +561,7 @@ button {
   margin-bottom: 12px;
 }
 
+
 .skill-card__name {
   font-size: 1rem;
   margin-bottom: 6px;
@@ -560,6 +578,7 @@ button {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
+    
 }
 
 
@@ -578,6 +597,7 @@ button {
   transform: translateY(-3px);
 }
 
+
 .project-card__pins {
   position: absolute;
   top: 0;
@@ -594,15 +614,18 @@ button {
   transform: translateY(-50%);
 }
 
+
 .project-card__badge {
   display: inline-block;
   font-family: var(--font-mono);
   font-size: 0.68rem;
   letter-spacing: 0.04em;
+    
   text-transform: uppercase;
   color: var(--muted);
   border: 1px dashed var(--line-strong);
   border-radius: 999px;
+    
   padding: 3px 10px;
   margin-bottom: 14px;
 }
@@ -620,6 +643,7 @@ button {
 
 .project-card__tech {
   display: flex;
+    
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 20px;
@@ -631,11 +655,13 @@ button {
   color: var(--accent);
   background: var(--accent-soft);
   padding: 4px 9px;
+    
   border-radius: var(--radius-sm);
 }
 
 .project-card__actions {
   display: flex;
+    
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
@@ -647,11 +673,13 @@ button {
   color: var(--muted);
 }
 
+
 .empty-state {
   border: 1px dashed var(--line-strong);
   border-radius: var(--radius-md);
   padding: 36px 28px;
   text-align: left;
+    
 }
 
 .empty-state__text {
@@ -663,6 +691,7 @@ button {
 
 .contact-grid {
     position: relative;
+    
     border: 1px solid var(--line);
     border-radius: var(--radius-md);
     padding: 20px;
