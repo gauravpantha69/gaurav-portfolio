@@ -1,73 +1,59 @@
-Gaurab Pantha - Portfolio
+# Gaurab Pantha — Portfolio
 
-Heyy! I am Gaurab Pantha, a student who enjoys coding, technology, robotics, and building things, Graphic designing is my main skill and i spend a lot of time creating designs and trying different ideas. I also work on small coding and technology projects when i get an idea for something.
+This is my personal portfolio that I made to keep my projects and work in one place.
 
-This portfoilo is also one of the projects i made while learning and improving my skills.
+I started making things mostly because I like trying ideas and seeing if I can actually make them work. Graphic designing is the thing I enjoy most, but recently I have also been spending time with websites, coding and robotics.
 
-This repository contains the source code of my personal portfolio website. I am using it to showcase the projects I haved  worked on, things I am learning, and some of the stuff I've built along the way.
+What I do
 
+My main skill is graphic designing. I make posters, banners and other designs for school activities and projects.
 
+I also like making small useful projects. Some of them are not perfect yet, but I keep improving them when I get time.
 
-The website is built from scratch without using a large fronted frameworks
+ Some of my work
 
-# Projects
-### Reminder
-A small project made for keeping track of tasks and reminders.
+Reminder 
+A small project for keeping track of reminders and tasks.
 
-### Robotics Competition Website
+Robotics Competition Website
+A website I worked on for a robotics competition.
 
-A website project related to a robotics competition.
+Site Blocker
+A project I made for blocking distracting websites.
 
-### Site Blocker
+I am adding more projects as I finish them.
 
-A project made to block distracting websites and help with staying focused.
+About this website
 
-I will add more project here as i make them
+I made this portfolio with plain HTML, CSS and JavaScript instead of using a large framework.
 
-# Technologies
-- HTML
-- CSS
-- JavaScript
+It has a dark/light theme, responsive navigation, a small terminal typing effect, scroll animations and a custom 404 page.
 
-I kept it simple and did not use a big fronted framework
+The design is based around a simple terminal/developer style because I wanted it to feel like something I actually made rather than a standard portfolio template.
 
+Files
 
-## Features
-Responsive Design
-Dark and light mode
-mobile navigation
-terminal-style typing effect
-scroll animations
-project section
-contact section
-PWA support
+- `index.html` — main portfolio
+- `style.css` — design and layout
+- `script.js` — interactions and theme switching
+- `manifest.json` — web app information
+- `404.html` — custom error page
+- `assets/` — images and icons
 
-  CONTACT
+What's next
 
+This isn't finished yet. I want to keep adding my actual design work and projects, improve the existing pages and make the site better as I learn.
 
-Email : gpantha99@gmail.com
+Contact
 
-Github : https://github.com/gauravpantha69
+Email: gpantha99@gmail.com
 
-Facebook : https://www.facebook.com/myselfgaurav99
+GitHub: https://github.com/gauravpantha69
 
-Instagram : https://www.instagram.com/myselfgaurav99
+Facebook: https://www.facebook.com/myselfgaurav99
 
-## Files
-
-- "index.html" : Main portfolio page
-- "style.css" : Website design and layout
-- "script.js" : Website interactions
-- "manifest.json" : PWA settings
-- "404.html" : Page not found page
-- "assests/" : Images and icons
+Instagram: https://www.instagram.com/myselfgaurav99
 
 
 
-
-  
-
-I will keep updating this portfolio as i make more projects and learn new things.
-
-
-Made by Gaurab.
+Made by Gaurab
