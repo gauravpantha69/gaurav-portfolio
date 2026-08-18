@@ -1,62 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <meta
+    name="description"
+    content="Gaurab Pantha - Personal portfolio, graphic design and projects."
+  >
 
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gaurab</title>
-  <meta name="description" content="Portfolio of Gaurab — graphic designer interested in technology, coding, and robotics." />
+  <meta name="theme-color" content="#14171c">
 
-  <!-- PWA -->
-  <link rel="manifest" href="manifest.json" />
-  <meta name="theme-color" content="#14171C" />
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png" />
-  <link rel="apple-touch-icon" href="assets/icons/icon-192.png" />
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-
-  <link rel="stylesheet" href="style.css" />
+  <title>Gaurab — Portfolio</title>
 </head>
+
 <body>
 
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main">
+    Skip to content
+  </a>
 
+  <!-- Header -->
   <header class="site-header">
-    <nav class="nav" aria-label="Primary">
+    <nav class="nav">
 
-      <a href="#top" class="nav__logo" aria-label="Gaurab, back to top">
-        <span class="nav__prompt">gaurab<span class="nav__at">@</span>dev<span class="nav__colon">:~$</span></span>
+      <a class="nav__logo" href="./">
+        <span class="nav__prompt">
+          <span class="nav__at">gaurab</span>@dev
+        </span><span class="nav__colon">:~$</span>
       </a>
-
-      <ul class="nav__links" id="nav-links">
-        <li><a href="#about" class="nav__link" data-nav-link>About</a></li>
-        <li><a href="#skills" class="nav__link" data-nav-link>Skills</a></li>
-        <li><a href="#projects" class="nav__link" data-nav-link>Projects</a></li>
-        <li><a href="#experience" class="nav__link" data-nav-link>Experience</a></li>
-        <li><a href="#contact" class="nav__link" data-nav-link>Contact</a></li>
-        
-      </ul>
 
       <div class="nav__controls">
 
-        
-        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to light theme" aria-pressed="false">
-          <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
-            <circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6"/>
-            <path stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/>
+        <ul class="nav__links" id="nav-links">
+
+          <li>
+            <a
+              class="nav__link"
+              data-nav-link
+              href="#about"
+            >
+              About
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="nav__link"
+              data-nav-link
+              href="#skills"
+            >
+              Skills
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="nav__link"
+              data-nav-link
+              href="#projects"
+            >
+              Projects
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="nav__link"
+              data-nav-link
+              href="#experience"
+            >
+              Experience
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="nav__link"
+              data-nav-link
+              href="#contact"
+            >
+              Contact
+            </a>
+          </li>
+
+        </ul>
+
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          type="button"
+          aria-label="Switch to light theme"
+          aria-pressed="false"
+          title="Switch to light theme"
+        >
+          <svg
+            class="icon icon-sun"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+            aria-hidden="true"
+          >
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path>
+            <path d="m19.07 4.93-1.41 1.41"></path>
           </svg>
 
-          <svg class="icon icon-moon" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
-            <path stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5Z"/>
+          <svg
+            class="icon icon-moon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+            aria-hidden="true"
+          >
+            <path d="M21 12.79A9 9 0 1 1 11.21 3
+              7 7 0 0 0 21 12.79Z">
+            </path>
           </svg>
         </button>
 
-        
-        <button type="button" class="nav__burger" id="nav-burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
-          <span></span><span></span><span></span>
+        <button
+          class="nav__burger"
+          id="nav-burger"
+          type="button"
+          aria-expanded="false"
+          aria-label="Open menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
 
       </div>
@@ -66,470 +149,444 @@
 
   <main id="main">
 
-    <section class="hero" id="top">
-      
-      <div class="wrap hero__layout">
 
-        <figure class="hero__photo">
-          <img
-            src="assests/images/gaurav.jpg"
-            alt="Gaurab"
-            width="700"
-            height="978"
-          />
-        </figure>
+    <section class="hero" id="home">
 
-        <div class="hero__text">
+      <div class="wrap">
 
-          <p class="hero__terminal" aria-hidden="true">
-            <span class="hero__terminal-prompt">gaurab@dev:~$</span>
-            <span class="hero__terminal-text" id="terminal-text"></span>
-            
-            <span class="hero__cursor" id="terminal-cursor">&nbsp;</span>
-          </p>
+        <div class="hero__layout">
 
-          <h1 class="hero__name">Gaurab</h1>
+          <figure class="hero__photo">
+            <img
+              src="assets/images/gaurav.jpg"
+              alt="Gaurab"
+            >
+          </figure>
 
-          <p class="hero__tagline">
-            My real skill is graphic designing.
-          </p>
+          <div class="hero__content">
 
-          <p class="hero__desc">
-            I enjoy creating things with technology and learning by building
-            projects myself. I'm interested in graphic designing, coding,
-            robotics, and experimenting with new ideas.
-            
-          </p>
+            <div class="hero__terminal">
+              <span class="hero__terminal-prompt">
+                gaurab@dev:~$
+              </span>
 
-          <div class="hero__actions">
-            <a href="#projects" class="btn btn--primary">View Projects</a>
-            <a href="#contact" class="btn btn--ghost">Contact Me</a>
+              <span id="terminal-text"></span>
+
+              <span
+                class="hero__cursor"
+                id="terminal-cursor"
+                aria-hidden="true"
+              ></span>
+            </div>
+
+            <h1 class="hero__name">
+              Gaurab
+            </h1>
+
+            <p class="hero__tagline">
+              My real skill is graphic designing.
+            </p>
+
+            <p class="hero__desc">
+              I enjoy creating things with technology and learning
+              by building projects myself. I'm interested in graphic
+              designing, coding, robotics, and experimenting with
+              new ideas.
+            </p>
+
+            <div class="hero__actions">
+
+              <a
+                href="#projects"
+                class="btn btn--primary"
+              >
+                View Projects
+              </a>
+
+              <a
+                href="#contact"
+                class="btn btn--ghost"
+              >
+                Contact Me
+              </a>
+
+            </div>
+
           </div>
-          
 
         </div>
+
       </div>
+
     </section>
 
 
+  
     <section class="section" id="about">
+
       <div class="wrap">
 
-        <p class="eyebrow">// about</p>
-        
-        <h2 class="section__title">A bit about me</h2>
+        <p class="eyebrow">
+          01 — ABOUT
+        </p>
+
+        <h2 class="section__title">
+          About Me
+        </h2>
 
         <div class="about__content">
 
           <p>
-            I'm Gaurab. I'm interested in technology and especially enjoy
-            graphic designing. I like creating things and learning by
-            working on real projects.
+            I'm Gaurab and I like learning by actually making
+            things. Graphic designing is my main skill and I enjoy
+            creating posters, banners and other designs.
           </p>
 
           <p>
-            I also enjoy experimenting with coding, robotics, and different
-            ideas that I can turn into working projects.
-            
+            I also like coding, robotics and technology. When I get
+            an idea for something useful I try to build it myself
+            and learn from the process.
           </p>
 
           <p>
-            Some of the projects I've worked on include a Reminder,
-            a Robotics Competition Site, and a Site Blocker.
+            This portfolio is a place where I can keep my projects
+            and design work together and continue improving as I
+            learn new things.
           </p>
 
         </div>
 
       </div>
+
     </section>
 
 
     <section class="section" id="skills">
+
       <div class="wrap">
 
-        <p class="eyebrow">// skills</p>
-        <h2 class="section__title">What I work with</h2>
+        <p class="eyebrow">
+          02 — SKILLS
+        </p>
 
-        <ul class="skills-grid" role="list">
+        <h2 class="section__title">
+          What I Work With
+        </h2>
 
-          <li class="skill-card">
-            <span class="skill-card__mark" aria-hidden="true">✦</span>
-            
-            <h3 class="skill-card__name">Graphic Designing</h3>
+        <p class="section__intro">
+          These are some of the skills and areas I have been
+          learning and working with.
+        </p>
+
+        <div class="skills-grid">
+
+          <article class="skill-card">
+
+            <span class="skill-card__mark">
+              01
+            </span>
+
+            <h3 class="skill-card__name">
+              Graphic Designing
+            </h3>
+
             <p class="skill-card__note">
-              My main skill and one of the things I enjoy working on most.
+              Posters, banners and visual designs.
             </p>
-          </li>
 
-          <li class="skill-card">
-            <span class="skill-card__mark" aria-hidden="true">◧</span>
-            <h3 class="skill-card__name">Robotics</h3>
+          </article>
+
+
+          <article class="skill-card">
+
+            <span class="skill-card__mark">
+              02
+            </span>
+
+            <h3 class="skill-card__name">
+              HTML & CSS
+            </h3>
+
             <p class="skill-card__note">
-              Interested in robotics and technology-based projects.
+              Building and styling websites.
             </p>
-            
-          </li>
 
-          <li class="skill-card">
-            <span class="skill-card__mark" aria-hidden="true">&lt;/&gt;</span>
-            <h3 class="skill-card__name">Coding</h3>
+          </article>
+
+
+          <article class="skill-card">
+
+            <span class="skill-card__mark">
+              03
+            </span>
+
+            <h3 class="skill-card__name">
+              JavaScript
+            </h3>
+
             <p class="skill-card__note">
-              
-              I learn through building and experimenting with projects.
+              Adding interaction and useful features.
             </p>
-          </li>
 
-        </ul>
+          </article>
+
+
+          <article class="skill-card">
+
+            <span class="skill-card__mark">
+              04
+            </span>
+
+            <h3 class="skill-card__name">
+              Robotics
+            </h3>
+
+            <p class="skill-card__note">
+              Interested in robotics and technology.
+            </p>
+
+          </article>
+
+        </div>
 
       </div>
+
     </section>
 
 
- <section class="section" id="projects">
-  <div class="wrap">
+  
+    <section class="section" id="projects">
 
-    <p class="eyebrow">03 — PROJECTS</p>
-
-    
-    <h2 class="section__title">Things I've Made</h2>
-
-    <p class="section__intro">
-      These are some of the projects I have worked on while learning
-      design, coding and technology. Some are still being improved.
-      
-    </p>
-
-    <div class="projects-grid">
-
-      
-      <article class="project-card" data-reveal>
-
-        <div class="project-card__pins">
-          <span></span>
-          
-          <span></span>
-        </div>
-
-        <span class="project-card__badge">
-          Project
-          
-        </span>
-
-        <h3 class="project-card__title">
-          Reminder
-        </h3>
-
-        <p class="project-card__desc">
-          A small project I made for keeping track of reminders
-          and tasks. I made it while learning how to build useful
-          
-          things with code.
-        </p>
-
-        <ul class="project-card__tech">
-          
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-
-        <div class="project-card__actions">
-          <a
-            href="#"
-            class="btn btn--small"
-            
-            target="_blank"
-            rel="noopener"
-          >
-            View Project
-          </a>
-
-          <span class="project-card__no-demo">
-            Add link
-          </span>
-        </div>
-
-      </article>
-
-
-      
-      <article class="project-card" data-reveal>
-
-        
-        <div class="project-card__pins">
-          <span></span>
-          <span></span>
-        </div>
-
-        <span class="project-card__badge">
-          
-          Robotics
-        </span>
-
-        <h3 class="project-card__title">
-          Robotics Competition Website
-        </h3>
-
-        <p class="project-card__desc">
-          A website project related to a robotics competition.
-          I worked on the design and layout to make the information
-          easier to find and understand.
-        </p>
-
-        <ul class="project-card__tech">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Design</li>
-        </ul>
-        
-
-        <div class="project-card__actions">
-          <a
-            href="#"
-            class="btn btn--small"
-            target="_blank"
-            rel="noopener"
-          >
-             Project currently not available
-          </a>
-
-          <span class="project-card__no-demo">
-            Add link
-          </span>
-        </div>
-
-      </article>
-
-      
-
-      <article class="project-card" data-reveal>
-
-        <div class="project-card__pins">
-          <span></span>
-          <span></span>
-        </div>
-
-        <span class="project-card__badge">
-          Utility
-        </span>
-
-        <h3 class="project-card__title">
-          Site Blocker
-          
-        </h3>
-
-        <p class="project-card__desc">
-          A project I made for blocking distracting websites.
-          I wanted to experiment with making a simple tool that
-          could be useful in everyday work.
-        </p>
-
-        <ul class="project-card__tech">
-          <li>Web</li>
-          <li>JavaScript</li>
-        </ul>
-
-        <div class="project-card__actions">
-          <a
-            href="https://gaurab-pantha.github.io/Site-Blocker/"
-            class="btn btn--small"
-            target="_blank"
-            rel="noopener"
-            
-          >
-            View Project
-          </a>
-
-          <span class="project-card__no-demo">
-            Add link
-          </span>
-        </div>
-
-      </article>
-
-
-      <article class="project-card" data-reveal>
-
-        <div class="project-card__pins">
-          <span></span>
-          <span></span>
-        </div>
-
-        <span class="project-card__badge">
-          Current
-          
-        </span>
-
-        <h3 class="project-card__title">
-          Personal Portfolio
-        </h3>
-
-        <p class="project-card__desc">
-          This portfolio is one of my current projects. I am using
-          it to practice web development and to keep my work in
-          
-          one place.
-        </p>
-
-        <ul class="project-card__tech">
-          <li>HTML</li>
-          <li>CSS</li>
-          
-          <li>JavaScript</li>
-        </ul>
-        
-
-        <div class="project-card__actions">
-          <a
-            href="https://github.com/gauravpantha69"
-            class="btn btn--small"
-            target="_blank"
-            rel="noopener"
-            
-          >
-            GitHub
-
-            
-          </a>
-        </div>
-
-      </article>
-
-    </div>
-
-  </div>
-</section>
-
-
-    <section class="section" id="designs">
-  <div class="wrap">
-
-    <p class="eyebrow">04 — DESIGN</p>
-    
-
-    <h2 class="section__title">My Designs</h2>
-
-    <p class="section__intro">
-      Graphic designing is my main skill. These are some of the
-      posters, banners and other designs I have worked on.
-    </p>
-
-    <div class="projects-grid">
-
-      
-      <article class="project-card">
-        <span class="project-card__badge">
-          Graphic Design
-        </span>
-
-        <h3 class="project-card__title">
-          Club Posters
-        </h3>
-
-        <p class="project-card__desc">
-          Posters and promotional designs I made for school
-          activities and club events.
-        </p>
-
-        <ul class="project-card__tech">
-          <li>Graphic Design</li>
-          <li>Poster Design</li>
-        </ul>
-      </article>
-
-
-      <article class="project-card">
-        <span class="project-card__badge">
-          Graphic Design
-          
-        </span>
-
-        <h3 class="project-card__title">
-          Event Banners
-        </h3>
-
-        <p class="project-card__desc">
-          Banner designs made for events, competitions and
-          school activities.
-        </p>
-
-        
-        <ul class="project-card__tech">
-          <li>Design</li>
-          <li>Branding</li>
-        </ul>
-      </article>
-
-
-      <article class="project-card">
-        <span class="project-card__badge">
-          Design Work
-        </span>
-
-        <h3 class="project-card__title">
-          Robotics Designs
-        </h3>
-
-        <p class="project-card__desc">
-          
-          Designs and graphics connected with robotics,
-          technology and competitions.
-        </p>
-
-        <ul class="project-card__tech">
-          <li>Graphic Design</li>
-          
-          <li>Technology</li>
-        </ul>
-      </article>
-
-    </div>
-
-  </div>
-      
-</section>
-
-    <section class="section" id="experience">
       <div class="wrap">
 
-        <p class="eyebrow">// experience</p>
-        <h2 class="section__title">Achievements &amp; experience</h2>
+        <p class="eyebrow">
+          03 — PROJECTS
+        </p>
+
+        <h2 class="section__title">
+          Things I've Made
+        </h2>
+
+        <p class="section__intro">
+          Some projects I made while learning coding and working
+          on ideas that I wanted to turn into something useful.
+        </p>
+
+        <div class="projects-grid">
+
+       
+          <article class="project-card">
+
+            <div class="project-card__pins">
+              <span></span>
+              <span></span>
+            </div>
+
+            <span class="project-card__badge">
+              Web Project
+            </span>
+
+            <h3 class="project-card__title">
+              Site Blocker
+            </h3>
+
+            <p class="project-card__desc">
+              A project I made to block distracting websites.
+              I built it as a way to learn more about web
+              development and make something useful for everyday
+              use.
+            </p>
+
+            <ul class="project-card__tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+
+            <div class="project-card__actions">
+
+              <a
+                href="https://gaurab-pantha.github.io/Site-Blocker/"
+                class="btn btn--small"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Project
+              </a>
+
+              <a
+                href="https://github.com/gaurab-pantha/Site-Blocker"
+                class="btn btn--small btn--small-ghost"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <article class="project-card">
+
+            <div class="project-card__pins">
+              <span></span>
+              <span></span>
+            </div>
+
+            <span class="project-card__badge">
+              Web Project
+            </span>
+
+            <h3 class="project-card__title">
+              Reminder
+            </h3>
+
+            <p class="project-card__desc">
+              A reminder project I made for keeping track of
+              tasks and things that I need to remember. It is
+              one of the projects I worked on while learning.
+            </p>
+
+            <ul class="project-card__tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+
+            <div class="project-card__actions">
+
+              <a
+                href="https://gaurab-pantha.github.io/extention/"
+                class="btn btn--small"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Project
+              </a>
+
+              <a
+                href="https://github.com/gaurab-pantha/extention"
+                class="btn btn--small btn--small-ghost"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <article class="project-card">
+
+            <div class="project-card__pins">
+              <span></span>
+              <span></span>
+            </div>
+
+            <span class="project-card__badge">
+              Current
+            </span>
+
+            <h3 class="project-card__title">
+              Personal Portfolio
+            </h3>
+
+            <p class="project-card__desc">
+              This portfolio is one of my current projects.
+              I am using it to practice web development and
+              keep my work in one place.
+            </p>
+
+            <ul class="project-card__tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+
+            <div class="project-card__actions">
+
+              <a
+                href="https://gauravpantha69.github.io/gaurav-portfolio/"
+                class="btn btn--small"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Site
+              </a>
+
+              <a
+                href="https://github.com/gauravpantha69"
+                class="btn btn--small btn--small-ghost"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="section" id="experience">
+
+      <div class="wrap">
+
+        <p class="eyebrow">
+          04 — EXPERIENCE
+        </p>
+
+        <h2 class="section__title">
+          What I've Been Doing
+        </h2>
 
         <div class="empty-state">
 
-          
           <p class="empty-state__text">
-            This section will be updated with competitions, achievements,
-            experience, and other projects as I build and take part in them.
+            I've been working on school activities, graphic
+            designs, technology projects and robotics related
+            work. I'm still building my experience and adding
+            new projects as I learn.
           </p>
 
         </div>
 
       </div>
+
     </section>
 
 
-
-    
     <section class="section" id="contact">
+
       <div class="wrap">
 
-        <p class="eyebrow">// contact</p>
-
-        <h2 class="section__title">Get in touch</h2>
-
-        <p class="section__intro">
-          Feel free to reach out about projects, design, technology,
-          robotics, or anything code-related.
-          
-          
+        <p class="eyebrow">
+          05 — CONTACT
         </p>
 
+        <h2 class="section__title">
+          Get In Touch
+        </h2>
+
+        <p class="section__intro">
+          Want to talk about a project, design or just say hi?
+          You can find me here.
+        </p>
 
         <div class="contact-grid">
 
-    
-          <div class="contact-card">
+         
+          <article class="contact-card">
 
             <span class="contact-card__label">
               Email
@@ -537,135 +594,118 @@
 
             <div class="contact-card__row">
 
-              
               <a
-                href="mailto:gpantha99@gmail.com"
                 class="contact-card__value"
-                id="email-link">
+                id="email-link"
+                href="mailto:gpantha99@gmail.com"
+              >
                 gpantha99@gmail.com
               </a>
 
               <button
-                type="button"
                 class="copy-btn"
                 id="copy-email-btn"
-
-                
-                aria-label="Copy email address to clipboard">
-
+                type="button"
+              >
                 <span id="copy-btn-text">
                   Copy
                 </span>
-
               </button>
 
             </div>
 
-          </div>
+          </article>
 
 
         
-          <div class="contact-card">
+          <article class="contact-card">
 
             <span class="contact-card__label">
               GitHub
             </span>
 
             <a
-              href="https://github.com/gauravpantha69"
               class="contact-card__value"
+              href="https://github.com/gauravpantha69"
               target="_blank"
-              rel="noopener noreferrer">
-              github.com/gaurab-pantha
+              rel="noopener noreferrer"
+            >
+              github.com/gauravpantha69
             </a>
 
-          </div>
+          </article>
 
 
-        
-          <div class="contact-card">
+       
+          <article class="contact-card">
 
             <span class="contact-card__label">
               Facebook
             </span>
 
             <a
-              href="https://www.facebook.com/myselfgaurav99"
               class="contact-card__value"
+              href="https://www.facebook.com/myselfgaurav99"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               facebook.com/myselfgaurav99
             </a>
 
-          </div>
+          </article>
 
 
          
-          <div class="contact-card">
+          <article class="contact-card">
 
             <span class="contact-card__label">
               Instagram
             </span>
 
             <a
-              href="https://www.instagram.com/myselfgaurav99"
               class="contact-card__value"
+              href="https://www.instagram.com/myselfgaurav99"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               instagram.com/myselfgaurav99
             </a>
 
-          </div>
+          </article>
 
         </div>
+
       </div>
+
     </section>
 
   </main>
 
 
+ 
   <footer class="site-footer">
 
     <div class="wrap site-footer__inner">
 
       <p class="site-footer__copy">
-        © <span id="year"></span> Gaurab.
-        Built from scratch, still improving it.
+        © <span id="year"></span> Gaurab
       </p>
 
-      <ul class="site-footer__links">
+      <div class="site-footer__links">
 
-        <li>
-          <a
-            href="https://github.com/gauravpantha69"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub">
-            GitHub
-          </a>
-        </li>
+        <a
+          href="https://github.com/gauravpantha69"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
 
-        <li>
-          <a
-            href="https://www.facebook.com/myselfgaurav99"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Facebook">
-            Facebook
-          </a>
-        </li>
+        <a href="#home">
+          Back to top
+        </a>
 
-        <li>
-          <a
-            href="https://www.instagram.com/myselfgaurav99"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Instagram">
-            Instagram
-          </a>
-        </li>
-
-      </ul>
+      </div>
 
     </div>
 
