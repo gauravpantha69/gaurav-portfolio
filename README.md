@@ -1,48 +1,39 @@
-# Gaurab Pantha — Portfolio
+#Gaurab Web
 
-This is my personal portfolio that I made to keep my projects and work in one place.
 
-I started making things mostly because I like trying ideas and seeing if I can actually make them work. Graphic designing is the thing I enjoy most, but recently I have also been spending time with websites, coding and robotics.
+## About
 
-What I do
+I made this portfolio to show my skills and some projects I have made.
+My main skill is graphic designing but I also like coding and making
+small web projects.
 
-My main skill is graphic designing. I make posters, banners and other designs for school activities and projects.
+## My Skills
 
-I also like making small useful projects. Some of them are not perfect yet, but I keep improving them when I get time.
+- Graphic designing
+- HTML
+- CSS
+- JavaScript
 
- Some of my work
+## Projects
 
-Reminder 
-A small project for keeping track of reminders and tasks.
+### Site Blocker
 
-Robotics Competition Website
-A website I worked on for a robotics competition.
+I made this project to block websites that can be distracting.
+It was also a way for me to practice making websites.
 
-Site Blocker
-A project I made for blocking distracting websites.
+### Reminder
 
-I am adding more projects as I finish them.
+This is a reminder project I made while learning JavaScript.
+It helps me practice making useful things with code.
 
-About this website
+## What I Learned
 
-I made this portfolio with plain HTML, CSS and JavaScript instead of using a large framework.
+While making this portfolio I learned more about HTML CSS and JavaScript.
+I also learned how to fix problems when something was not working.
 
-It has a dark/light theme, responsive navigation, a small terminal typing effect, scroll animations and a custom 404 page.
+## Future
 
-The design is based around a simple terminal/developer style because I wanted it to feel like something I actually made rather than a standard portfolio template.
-
-Files
-
-- `index.html` — main portfolio
-- `style.css` — design and layout
-- `script.js` — interactions and theme switching
-- `manifest.json` — web app information
-- `404.html` — custom error page
-- `assets/` — images and icons
-
-What's next
-
-This isn't finished yet. I want to keep adding my actual design work and projects, improve the existing pages and make the site better as I learn.
+I want to add more projects and improve the design later.
 
 Contact
 
